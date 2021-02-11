@@ -1,0 +1,36 @@
+@charset "utf-8";
+.contact {
+    padding: 90px 0 60px;
+    color: #5a5c5f;
+}
+
+.contact-title {
+    margin-bottom: 15px;
+}
+
+input.name {
+    width: 80px;
+}
+
+input.mail {
+    width: 250px;
+}
+
+input.postcode {
+    width: 100px;
+}
+
+input.pre {
+    width: 100px;
+}
+
+input.address {
+    width: 200px;
+}
+
+.input-button {
+    margin-top: 100px;
+    font-size: 18px;
+    width: 60px;
+}
+

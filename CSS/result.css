@@ -1,0 +1,33 @@
+@charset "utf-8";
+.result {
+    padding: 90px 0 60px;
+    color: #3f4042;
+}
+.result-card {
+    width: 33%;
+    margin-top: 35px;
+}
+.result-card-inner {
+    padding: 25px 30px;
+    background-color: #dbe0e4;
+    border-radius: 7px;
+    box-shadow: 1px 1px 4px #d2d4d6;
+    text-align: center;
+    margin: 0 20px;
+}
+.result-image {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.result-title {
+    margin-bottom: 8px;
+}
+.result-text {
+    font-size: 13px;
+    text-align: left;
+}
+.result-card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}

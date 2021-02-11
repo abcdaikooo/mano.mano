@@ -1,0 +1,82 @@
+@charset "utf-8";
+.index {
+    padding: 90px 0 60px;
+}
+.container {
+    max-width: 980px;
+    padding: 0 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-visual {
+    padding-top: 60px;
+    padding-bottom: 80px;
+    background-image: url("images/haikei.jfif");
+    background-size: cover;
+    color:gray;
+    text-align: center;
+}
+
+.top-title {
+    font-size: 50px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.top-subtitle {
+    font-size: 21px;
+    margin-bottom: 60px;
+}
+
+.maintext {
+    color: black;
+    text-align: center;
+}
+
+.main-image {
+    width: 450px;
+    margin-bottom: 50px;
+    box-shadow: 2px 2px 4px #b7b7b7;
+    border-radius: 5px;
+}
+
+
+
+.recom-card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.result {
+    padding: 90px 0 60px;
+    color: #3f4042;
+}
+
+.recom-card {
+    width: 25%;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+.recom-card-inner {
+    padding: 25px 30px;
+    background-color: #dbe0e4;
+    border-radius: 7px;
+    box-shadow: 1px 1px 4px #d2d4d6;
+    text-align: center;
+    margin: 0 20px 20px 0;
+}
+.recom-image {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.recom-title {
+    margin-bottom: 8px;
+}
+.recom-text {
+    margin-top: 20px;
+    color:#3f4042;
+    font-size: 14px;
+    text-align: left;
+}

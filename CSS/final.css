@@ -1,0 +1,11 @@
+@charset "utf-8";
+.final {
+    padding: 90px 0 60px;
+    color: #5a5c5f;
+}
+.final-title {
+    margin-bottom: 15px;
+}
+.final-text {
+    margin-bottom: 10px;
+}

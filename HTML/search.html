@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta charset="utf-8">
+    <title>H.I.S.｜Search</title>
+    <link rel="stylesheet" href="commons.css">
+    <link rel="stylesheet" href="search.css">
+    <script src="search.js"></script>
+    <!-- <script src="http://rawgithub.com/abcdaikooo/test4/master/search.js"></script> JS読み込むためのもの追加-->
+ </head>
+ <body>
+    <div class="header">
+        <div class="container">
+         <div class="header-left">
+             <img class="header-logo" src="images/TOUMEI.png" alt="H.I.S">
+        </div>
+        <div class="header-right">
+         <a href="index.html">Top</a>
+         <a href="search.html">Search</a>
+         <a href="access.html">Access</a>
+         <a href="contact.html">Contact</a>
+        </div>
+        <div class="clear"></div>
+  　　  </div></div>
+　
+
+      
+
+<div class="access">
+    <div class="container">
+        <h2 class="access-title">検索画面</h2>
+        <p class="access-text">
+            ご希望条件で検索ください。</p>
+    </div>
+</div>
+
+
+
+
+<div class="search-window-wrapper">
+<div style="padding: 5px; margin-bottom: 10px; border: 5px double #333333;">
+ <table class="search-box"> 
+
+    <tr>
+    <td>
+    <p>エリア</p></td>
+    <td>
+    <script src="contact.js"></script>
+    <select name="area" id="area">
+        <option value="">選択してください</option>
+        <option value="0">北米</option>
+        <option value="1">アジア</option>
+        <option value="2">ヨーロッパ</option>
+    </select>
+</td> 
+
+
+   
+
+<td>
+        <p>旅行期間</p></td>
+        <td>
+        <select>
+            <option>3日間</option>
+            <option>4日間</option>
+            <option>5日間</option>
+            <option>6日間</option>
+            <option>7日間</option>
+            <option>8日間</option>
+        </select></td></tr>
+
+<tr>
+<td>
+<p>国名</p></td>
+<td>
+<select name="country" id="country">
+    <option value="">選択してください</option>
+  </select></td>
+
+    <td>
+    <p>予算</p></td>
+        <td>
+    <select>
+        <option>～5万円</option>
+        <option>～10万円</option>
+        <option>～15万円</option>
+        <option>～20万円</option>
+        <option>～25万円</option>
+        <option>～30万円</option>
+    </select></td></tr>
+
+<tr>
+<td>
+<p>都市名</p></td>
+<td>
+    <select name="city" id="city">
+  <option value="">選択してください</option>
+</select></td>
+<td>
+    <p>航空会社</p></td>
+        <td>
+    <select>
+        <option>ワンワールド</option>
+        <option>スターアライアンス</option>
+        <option>スカイチーム</option>
+    </select></td></tr>
+    
+
+<tr>
+<td>
+<p>出発地</p></td>
+    <td>
+    <select>
+    <option>成田/羽田空港</option>
+    <option>関西空港</option>
+    <option>中部国際空港</option>
+    <option>福岡空港</option>
+</select></td>
+<td>
+    <form action="cgi-bin/abc.cgi" method="post">
+        <p>こだわり条件<br>
+        <input type="checkbox" name="riyu" value="1">直行便<br>
+        <input type="checkbox" name="riyu" value="2">ビジネスクラス<br>
+        <input type="checkbox" name="riyu" value="3">ホテル決定済み<br>
+        </p></form>
+   </td></tr>
+
+
+   <tr>
+    <td>
+    <p>出発月</p></td>
+    <td>
+    <input type="date"></input>
+    </select></td>
+
+
+<tr>
+<td colspan="4">
+<br>
+<div class="search-button">
+    <input type="button" value="検索する🔍" onClick="window.open('result.html')">
+</div>
+</table>
+</div></div> 
+
+
+
+
+
+        <div class="footer">
+            <div class="container">
+                <div class="footer-left">
+                    <p>このサイトをシェアする</p>
+                    <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="H.I.Sで出かけよう✈" data-url="https://www.his-j.com" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+                <div class="footer-right">
+                    &copy; H.I.S. Travel
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        </body>
+        </html>
